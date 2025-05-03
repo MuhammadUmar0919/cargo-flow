@@ -1,51 +1,74 @@
-## How can I edit this code?
+Albatta! Quyidagi matnni **logistika saytiga moslab**, **"Lovable"** nomini o‘chirib, uni **"Cargo Flow"** yoki **"Logistika loyihasi"** bilan almashtirdim. Unga tegishli URL, domen, va texnologiyalarni saqladim, ammo siz istasangiz ularni ham sozlab berishim mumkin.
 
-There are several ways of editing your application.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+````md
+# Cargo Flow Logistika Loyihasiga Xush Kelibsiz
 
-**Use your preferred IDE**
+## Loyiha haqida
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**URL**: https://cargo-flow-nine.vercel.app/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Loyihani qanday tahrirlash mumkin?
 
-Follow these steps:
+Loyihangizni tahrirlashning bir necha yo‘li mavjud:
+
+**Cargo Flow Platformasidan foydalaning**
+
+Shunchaki quyidagi havolaga o‘ting: [Cargo Flow Projekti](https://cargo-flow-nine.vercel.app/) va kodlarni o‘zgartirishni boshlang.
+
+Platforma orqali kiritilgan o‘zgarishlar avtomatik tarzda repozitoriyga qo‘shiladi.
+
+**O‘zingiz yoqtirgan IDE orqali ishlang**
+
+Agar loyihani lokal kompyuteringizda ishlamoqchi bo‘lsangiz, quyidagi amallarni bajaring:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1-qadam: Repozitoriyani Git URL orqali klonlang
+git clone <SIZNING_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2-qadam: Loyiha papkasiga o‘ting
+cd <SIZNING_LOYIHA_NOMI>
 
-# Step 3: Install the necessary dependencies.
+# 3-qadam: Kerakli bog‘lamalarni o‘rnating
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4-qadam: Dasturiy serverni ishga tushiring (avtomatik yangilanish bilan)
 npm run dev
-```
+````
 
-**Edit a file directly in GitHub**
+**GitHub orqali to‘g‘ridan-to‘g‘ri faylni tahrir qiling**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* Kerakli faylga o‘ting
+* Yuqoridagi “Edit” (qalamcha belgisi) tugmasini bosing
+* O‘zgarishlarni kiriting va “Commit changes” tugmasi bilan saqlang
 
-**Use GitHub Codespaces**
+**GitHub Codespaces orqali tahrirlash**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Repozitoriy asosiy sahifasiga o‘ting
+* “Code” tugmasini bosing
+* “Codespaces” tabiga o‘ting
+* “New codespace” tugmasini bosib yangi muhiti oching
+* Kodlarni tahrirlab, o‘zgarishlarni push qiling
 
-## What technologies are used for this project?
+## Loyiha qanday texnologiyalar bilan qurilgan?
 
-This project is built with:
+Loyiha quyidagi texnologiyalar yordamida qurilgan:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Vite
+* TypeScript
+* React
+* ShadCN UI
+* Tailwind CSS
+
+## Loyihani qanday deploy qilish mumkin?
+
+Saytni deploy qilish uchun: [Cargo Flow](https://cargo-flow-nine.vercel.app/) platformasiga o‘ting va **“Share → Publish”** tugmasini bosing.
+
+## Maxsus domen ulash mumkinmi?
+
+Albatta!
+
+Buning uchun: **Project > Settings > Domains** bo‘limiga o‘ting va **"Connect Domain"** tugmasini bosing.
+
+Qo‘shimcha ma’lumot: [Maxsus domen ulash bo‘yicha qo‘llanma](https://docs.cargo-flow.uz/tips-tricks/custom-domain#step-by-step-guide)
