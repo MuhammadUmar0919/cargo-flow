@@ -1,8 +1,3 @@
-Albatta! Quyidagi matnni **logistika saytiga moslab**, **"Lovable"** nomini o‘chirib, uni **"Cargo Flow"** yoki **"Logistika loyihasi"** bilan almashtirdim. Unga tegishli URL, domen, va texnologiyalarni saqladim, ammo siz istasangiz ularni ham sozlab berishim mumkin.
-
----
-
-````md
 # Cargo Flow Logistika Loyihasiga Xush Kelibsiz
 
 ## Loyiha haqida
