@@ -51,7 +51,7 @@ const services = [
       "Maxsus muddatli yetkazib berish",
       "Shaxsiy kuryer xizmati",
     ],
-    image: "https://images.unsplash.com/photo-1616023096711-1350451290ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const services = [
       "Harorat nazorati",
       "Inventarizatsiya boshqaruvi",
     ],
-    image: "https://images.unsplash.com/photo-1586528116193-c793db1d8cc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 5,
@@ -169,11 +169,11 @@ const ServicesPage = () => {
                     className="rounded-xl shadow-lg object-cover w-full h-[300px]"
                   />
                 </div>
-                {index < services.length - 1 && (
+                {/* {index < services.length - 1 && (
                   <div className="col-span-1 md:col-span-2">
                     <Separator className="my-8" />
                   </div>
-                )}
+                )} */}
               </motion.div>
             ))}
           </div>

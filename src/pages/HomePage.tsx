@@ -203,9 +203,6 @@ const HomePage = () => {
       {/* Testimonials section */}
       <TestimonialsSection />
 
-      {/* Team section */}
-      <TeamSection />
-
       {/* Partners section */}
       <PartnersSection />
 

@@ -57,7 +57,7 @@ export function TeamSlider({ teamMembers }: TeamSliderProps) {
   return (
     <div className="relative">
       <Carousel 
-        className="w-full max-w-5xl mx-auto"
+        className="w-full max-w-5xl mx-auto py-16"
         setApi={setApi}
       >
         <CarouselContent>

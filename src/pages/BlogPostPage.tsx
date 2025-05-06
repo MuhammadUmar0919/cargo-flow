@@ -87,8 +87,8 @@ const BlogPostPage = () => {
     `,
     date: "2023-06-15",
     author: "Aziz Karimov",
-    authorImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
-    image: "https://images.unsplash.com/photo-1518544648533-94c5d37f9b9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    authorImage: "https://randomuser.me/api/portraits",
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     category: "Texnologiya",
     readTime: "8 daqiqa",
     tags: ["Texnologiya", "AI", "IoT", "Blokcheyn", "Logistika innovatsiyalari"],
@@ -103,7 +103,7 @@ const BlogPostPage = () => {
         id: "3",
         title: "Yuk tashishda ekologik yechimlar",
         slug: "ekologik-yechimlar",
-        image: "https://images.unsplash.com/photo-1623539341961-1d3d0438101e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
       },
       {
         id: "4",
@@ -169,12 +169,12 @@ const BlogPostPage = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mb-10"
+              className="mb-10 vh-[20%] "
             >
               <img 
                 src={post.image} 
                 alt={post.title}
-                className="w-full h-auto object-cover rounded-xl shadow-md"
+                className="w-full vh-[200px] object-cover rounded-xl shadow-md"
               />
             </motion.div>
 
