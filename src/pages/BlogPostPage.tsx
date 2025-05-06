@@ -87,7 +87,7 @@ const BlogPostPage = () => {
     `,
     date: "2023-06-15",
     author: "Aziz Karimov",
-    authorImage: "https://randomuser.me/api/portraits",
+    authorImage: "https://randomuser.me/api/portraits/men/41.jpg",
     image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     category: "Texnologiya",
     readTime: "8 daqiqa",
