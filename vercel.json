@@ -1,22 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
-  "env": {
-    "NEXT_PUBLIC_API_URL": "https://api.yoursite.com",
-    "NEXT_PUBLIC_MAPBOX_KEY": "your-mapbox-api-key",
-    "DATABASE_URL": "your-production-database-url",
-    "SECRET_KEY": "your-secret-key"
-  },
-  "images": {
-    "domains": ["yourcdn.com", "images.unsplash.com"],
-    "sizes": [16, 32, 48, 64, 96, 128, 256, 384, 512]
-  },
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/$1" }],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
