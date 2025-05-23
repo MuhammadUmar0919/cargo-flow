@@ -23,8 +23,10 @@
     "SECRET_KEY": "your-secret-key"
   },
   "images": {
-    "domains": ["yourcdn.com", "images.unsplash.com"]
+    "domains": ["yourcdn.com", "images.unsplash.com"],
+    "sizes": [16, 32, 48, 64, 96, 128, 256, 384, 512]
   },
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "cleanUrls": true,
   "trailingSlash": false
 }
