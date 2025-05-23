@@ -2,15 +2,14 @@
 
 ## Loyiha haqida
 
-**URL**: https://cargo-flow-nine.vercel.app/
-
+**URL**: https://world-logistic-lyart.vercel.app/
 ## Loyihani qanday tahrirlash mumkin?
 
 Loyihangizni tahrirlashning bir necha yo‘li mavjud:
 
 **Cargo Flow Platformasidan foydalaning**
 
-Shunchaki quyidagi havolaga o‘ting: [Cargo Flow Projekti](https://cargo-flow-nine.vercel.app/) va kodlarni o‘zgartirishni boshlang.
+Shunchaki quyidagi havolaga o‘ting: [Cargo Flow Projekti](https://world-logistic-lyart.vercel.app/) va kodlarni o‘zgartirishni boshlang.
 
 Platforma orqali kiritilgan o‘zgarishlar avtomatik tarzda repozitoriyga qo‘shiladi.
 
@@ -58,7 +57,7 @@ Loyiha quyidagi texnologiyalar yordamida qurilgan:
 
 ## Loyihani qanday deploy qilish mumkin?
 
-Saytni deploy qilish uchun: [Cargo Flow](https://cargo-flow-nine.vercel.app/) platformasiga o‘ting va **“Share → Publish”** tugmasini bosing.
+Saytni deploy qilish uchun: [Cargo Flow](https://world-logistic-lyart.vercel.app/) platformasiga o‘ting va **“Share → Publish”** tugmasini bosing.
 
 ## Maxsus domen ulash mumkinmi?
 
