@@ -18,7 +18,7 @@ export function TeamSection() {
       name: "Jovboʻriyev Umidjon",
       position: "Direktor",
       bio: "10 yillik tajribaga ega logistika sohasidagi professional. Xalqaro darajada yuklarni tashish bo'yicha mutaxassis.",
-      image: "/public/one.jpg"
+      image: "/public/first.jpg"
     },
     {
       id: 2,
