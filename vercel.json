@@ -6,16 +6,6 @@
       "use": "@vercel/next"
     }
   ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "env": {
     "NEXT_PUBLIC_API_URL": "https://api.yoursite.com",
     "NEXT_PUBLIC_MAPBOX_KEY": "your-mapbox-api-key",
@@ -26,7 +16,7 @@
     "domains": ["yourcdn.com", "images.unsplash.com"],
     "sizes": [16, 32, 48, 64, 96, 128, 256, 384, 512]
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/$1" }],
   "cleanUrls": true,
   "trailingSlash": false
 }
