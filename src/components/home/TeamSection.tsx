@@ -15,38 +15,38 @@ export function TeamSection() {
   const teamMembers: TeamMember[] = [
     {
       id: 1,
-      name: "Aziz Rahimov",
+      name: "Jovboʻriyev Umidjon",
       position: "Direktor",
       bio: "10 yillik tajribaga ega logistika sohasidagi professional. Xalqaro darajada yuklarni tashish bo'yicha mutaxassis.",
-      image: "https://randomuser.me/api/portraits/men/41.jpg"
+      image: "/public/photo_2024-11-18_12-13-23.jpg"
     },
     {
       id: 2,
-      name: "Madina Karimova",
+      name: "Qivandiqov oʻralbek",
       position: "Operatsion menejeri",
       bio: "Barcha ichki operatsiyalarni yuqori darajada boshqaradi. Mijozlar bilan aloqalar va buyurtmalarni kuzatib boradi.",
-      image: "https://randomuser.me/api/portraits/women/31.jpg"
+      image: "/public/photo_2025-05-23_10-07-38 (2).jpg"
     },
     {
       id: 3,
-      name: "Bobur Alimov",
+      name: "Asliddinov Faxriddin",
       position: "Xalqaro aloqalar bo'limi",
       bio: "Yevropa va Osiyo davlatlari bilan ishlashda katta tajribaga ega. 15 ta tilni erkin biladi.",
-      image: "https://randomuser.me/api/portraits/men/32.jpg"
+      image: "/public/photo_2025-05-23_10-07-38.jpg"
     },
     {
       id: 4,
-      name: "Lola Ahmedova",
+      name: "Baxriddinova Sevnura",
       position: "Moliya bo'limi boshlig'i",
       bio: "Moliyaviy operatsiyalar va audit sohasida 8 yillik tajribaga ega mutaxassis.",
-      image: "https://randomuser.me/api/portraits/women/45.jpg"
+      image: "/public/photo_2025-05-23_10-10-11.jpg"
     },
     {
       id: 5,
-      name: "Jahongir Qodirov",
+      name: "Arziqulov Oxunjon",
       position: "IT bo'limi rahbari",
       bio: "Kompaniya logistika tizimlarini raqamlashtirgan va zamonaviy texnologiyalarni joriy qilgan mutaxassis.",
-      image: "https://randomuser.me/api/portraits/men/35.jpg"
+      image: "/public/photo_2025-05-23_10-10-13.jpg"
     },
     {
       id: 6,
