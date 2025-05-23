@@ -25,7 +25,12 @@
   "images": {
     "domains": ["yourcdn.com", "images.unsplash.com"]
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
   "cleanUrls": true,
   "trailingSlash": false
 }
