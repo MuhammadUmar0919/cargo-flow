@@ -18,35 +18,35 @@ export function TeamSection() {
       name: "Jovboʻriyev Umidjon",
       position: "Direktor",
       bio: "10 yillik tajribaga ega logistika sohasidagi professional. Xalqaro darajada yuklarni tashish bo'yicha mutaxassis.",
-      image: "/public/first.jpg"
+      image: "/first.jpg"
     },
     {
       id: 2,
       name: "Qivandiqov oʻralbek",
       position: "Operatsion menejeri",
       bio: "Barcha ichki operatsiyalarni yuqori darajada boshqaradi. Mijozlar bilan aloqalar va buyurtmalarni kuzatib boradi.",
-      image: "/public/two.jpg"
+      image: "/two.jpg"
     },
     {
       id: 3,
       name: "Asliddinov Faxriddin",
       position: "Xalqaro aloqalar bo'limi",
       bio: "Yevropa va Osiyo davlatlari bilan ishlashda katta tajribaga ega. 15 ta tilni erkin biladi.",
-      image: "/public/three.jpg"
+      image: "/three.jpg"
     },
     {
       id: 4,
       name: "Baxriddinova Sevnura",
       position: "Moliya bo'limi boshlig'i",
       bio: "Moliyaviy operatsiyalar va audit sohasida 8 yillik tajribaga ega mutaxassis.",
-      image: "/public/four.jpg"
+      image: "/four.jpg"
     },
     {
       id: 5,
       name: "Arziqulov Oxunjon",
       position: "IT bo'limi rahbari",
       bio: "Kompaniya logistika tizimlarini raqamlashtirgan va zamonaviy texnologiyalarni joriy qilgan mutaxassis.",
-      image: "/public/five.jpg"
+      image: "/five.jpg"
     },
     {
       id: 6,
